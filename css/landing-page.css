@@ -6,6 +6,11 @@
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-image: url("../img/bg-masthead3.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 h1,
@@ -20,9 +25,6 @@ h6 {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead3.jpg") no-repeat center center;
-  background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
@@ -50,7 +52,9 @@ header.masthead h1 {
     font-size: 3rem;
   }
 }
-
+.showcase {
+  background-color: white;
+}
 .showcase .showcase-text {
   padding: 3rem;
 }
